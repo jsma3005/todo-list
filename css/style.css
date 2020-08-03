@@ -1,0 +1,73 @@
+body{
+    font-family: 'Montserrat', sans-serif !important;
+    padding: 0px 300px;
+    background: url('../img/bg.jpg') center / cover;
+}
+
+.btn-container{
+    position: relative;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btn-container button{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.btn:hover{
+    padding: .700rem 1rem !important;
+    transition: 0.3s !important;
+}
+
+.form-container{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.form-container .card-body{
+    padding: 0px 1.25rem !important;
+}
+.form-container .card-title{
+    margin-bottom: 0px !important;
+    margin-top: 20px;
+}
+
+/* Typing text */
+.typed-text{
+    background: linear-gradient(135deg, #12BCB0 20%, #FABE0E 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 0.3em 0.6em ;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Fredericka the Great', cursive;
+    /* box-shadow: 0 0 20px rgba(0,0,0,0.5); */
+}
+.typed-cursor{
+    display: none !important;
+}
+.type-container{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.card{
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.form-container{
+    position: relative;
+    top: -1000px;
+    transition: 1s;
+}
+.toggle-form{
+    top: 0px;
+    transition: 1s;
+}
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!111 */

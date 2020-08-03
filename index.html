@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="type-container">
+        <h1 class="typed-text"></h1>
+    </div>
+
+    <div class="btn-container mb-5">
+        <button class="btn btn-danger open-form">Open the Form</button>
+    </div>
+
+    <div class="form-container mt-5 mb-5">
+        <div class="card">
+            <div class="card-title">
+                <h1>Add new task</h1>
+            </div>
+            <div class="card-body">
+                <form>
+                    <input id="inputTitle" type="text" class="form-control mb-3 mt-3" placeholder="Task title">
+                    <textarea id="inputText" rows="5" type="text" class="form-control mb-3 mt-3" placeholder="Task text"></textarea>
+                </form>
+                <button id="addTask" class="btn btn-primary mb-4">Add new task</button>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div class="task-container">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title text-center">Title example</h5>
+                <p>Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus laboriosam, deserunt, nesciunt minima dolore laudantium pariatur rem temporibus animi blanditiis quia? Dolor nesciunt nemo sequi tenetur blanditiis, aut quos? Animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, soluta quaerat illo quam magni dolorem ut, tempora eum repudiandae voluptatum suscipit in? Quod, deleniti porro. Pariatur, sed. Architecto, cupiditate ipsa?</p>
+                <div class="row d-flex justify-content-center">
+                    <div class="card-delete text-center mr-5">
+                        <button class="btn btn-danger">Delete</button>
+                    </div>
+                    <div class="card-complete">
+                        <button class="btn btn-primary" data-toggle="modal" data-target="#modal-1">Complete</button>
+
+                        <div class="modal fade" id="modal-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Complete task</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h5>Are you really completed this task?</h5>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btn-primary btn-confirm" data-dismiss="modal">Yes</button>
+                                        <button class="btn btn-secondary" data-dismiss="modal">No</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    
+    
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="js/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+</body>
+</html>
